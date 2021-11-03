@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Products</title>
+		<!--responsive to screen width -->
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<!-- Bootstrap stylesheet-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+		<!-- boxicons -->
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+		<!-- custom css -->
+		<link rel="stylesheet" href="assets/styles.css">
+		<!-- glide css -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" integrity="sha512-esCylxvZEDuZ+3L2JRa6wYVNDihaDw5fDBUPZ9X9igrCIMHILsPiR4A7+dKmqqzvvIH8lzRlRV4b4V7Q9es/ew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<!-- glide theme -->
+	</head>
+</body>
+<!-- header -->
+<section class="">
+  <header class="header">
+    <div class="container">
+  <nav class="nav d-flex">
+    <div class="menu-icon"><span class="fas fa-bars"></span></div>
+    <div class="logo animate__animated animate__slow animate__fadeInLeft"><a href="index.html">BaLogun</a></div>
+    <ul class="nav-items">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <label for="btn-1" class="show"> All Categories +</label>
+        <a href="#">All Categories</a>
+        <input type="checkbox" id="btn-1">
+        <ul>
+          <li>
+            <a href="#">Home Decor</a>
+            <ul>
+              <li><a href="#">Armchair</a></li>
+              <li><a href="#">Decor</a></li>
+              <li><a href="#">Lamps</a></li>
+              <li><a href="#">Mirror</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Beauty</a>
+            <ul>
+              <li><a href="#">Human Hairs</a></li>
+              <li><a href="#">Perfumes</a></li>
+              <li><a href="#">Makeups</a></li>
+              <li><a href="#">Hair Products</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Bags</a>
+            <ul>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Boxes</a></li>
+              <li><a href="#">Clutches</a></li>
+              <li><a href="#">Laptops Bags</a></li>
+              <li><a href="#">School Bags</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Fashion</a>
+            <ul>
+              <li><a href="#">Accessories</a>
+            </li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">T-shirts</a></li>
+            <li><a href="#">Polos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Electronics</a>
+          <ul>
+            <li><a href="#">Destops</a></li>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Notepads</a></li>
+            <li><a href="#">Phones</a></li>
+            <li><a href="#">Smart tv</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="">
+      <label for="btn-2" class="show">Account +</label>
+      <a href="#"><i class="fa fa-user"></i> Account </a>
+      <input type="checkbox" id="btn-2">
+      <ul>
+        <li><a href="signup.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </li>
+    <li class="wishlist">
+      <a href="#"><i class="fa fa-heart"></i><span class="wish-count">0</span> Wishlist</a>
+      
+    </li>
+    <li>
+      <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+        <span class="wish-count">0</span>
+      </a>
+    </li>
+  </ul>
+  <div class="searchbar">
+    <form action="#">
+      <input type="search" placeholder="search" class="searchinput" required>
+      <button class="searchicon" type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+  <div class="search-icon"><span class="fas fa-search"></span></div>
+  <div class="cancel-icon"><span class="fas fa-times"></span></div>
+</nav>
+</div>
+</header>
+</section>
+<!--/ header -->
+<!-- Products -->
+<section class="container" >
+<div class="mt all-products top">
+	<h1>All Products</h1>
+	<form action="#">
+		<select>
+			<option value="1">Default Sorting</option>
+			<option value="2">Price</option>
+			<option value="3">Popularity</option>
+			<option value="4">Sale</option>
+			<option value="5">Rating</option>
+		</select>
+		<span><i class="bx bx-chevron-down"></i></span>
+	</form>
+</div>
+</section>
+<div class="wrapper">
+<div class="product_center">
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/ring.jpg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/watch.jpeg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/t-shirt.jpg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/green.png" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/samsung.jpg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/shoe.jpg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/product-4.jpg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+	<div class="product_item">
+		<div class="overlay">
+			<a href="productDetails.html" class="product-thumb">
+				<img src="./images/iwatch.jpeg" alt="ring image" class="img-fluid">
+			</a>
+			<span class="discount">50%</span>
+		</div>
+		<div class="product-info">
+			<span>JEWELRY</span>
+			<a href="productDetails.html">
+				Diamond Ring
+			</a>
+			<h4>130,000</h4>
+		</div>
+		<ul class="icons">
+			<li><i class="bx bx-heart"> </i></li>
+			<li><i class="bx bx-search"> </i></li>
+			<li><i class="bx bx-cart"> </i></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<section class="container pagination">	
+	<div class="">	
+	   <span>1</span>
+	    <span>2</span>
+	    <span>3</span>
+	    <span>4</span>
+	    <span><i class="bx bx-right-arrow-alt">	</i></span> 
+	</div>
+</section>	
+<!-- Products -->
+<!-- footer -->
+<footer class=" container-fluid footer">
+<div class="row">
+<div class="col d-flex">
+	<h4>INFORMATION</h4>
+	<a href="">About Us</a>
+	<a href="">Shipping Guid</a>
+	<a href="">Terms and Conditions</a>
+	<a href="">Contact Us</a>
+	<a href="">Sell On Balogun</a>
+</div>
+<div class="col d-flex">
+	<h4>USEFUL LINKS</h4>
+	<a href="">Top Brands</a>
+	<a href="">Customer Service</a>
+	<a href="">Promotions</a>
+	<a href="">Online Shopping</a>
+	<a href="">FQA</a>
+</div>
+<div class="col d-flex">
+	<span><i class="bx bxl-facebook-square"></i></span>
+	<span><i class="bx bxl-instagram-alt"></i></span>
+	<span><i class="bx bxl-github"></i></span>
+	<span><i class="bx bxl-twitter"></i></span>
+	<span><i class="bx bxl-pinterest"></i></span>
+</div>
+</div>
+  <div>
+        <p class="copyright"> &copy; 2021 — BaLogun. All Rights Reserved</p>
+  </div>
+</footer>
+ <div class="scrollTop" onclick="scrollToTop()"></div>
+<!-- footer -->
+<script type="text/javascript" src='assets/js/jquery-3.6.0.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.js" integrity="sha512-isL0X0NIGuM6rzb9zZ0J18tMNlRCDaLew8hfE85AtQUWuM675YRoFovkbUeKssvgQMGg8YQMZ/eJMm8C/bH9HA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/slider.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

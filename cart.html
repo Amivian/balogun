@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Cart page</title>
+		<!--responsive to screen width -->
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<!-- Bootstrap stylesheet-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+		<!-- boxicons -->
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+		<!-- custom css -->
+		<link rel="stylesheet" href="assets/styles.css">
+	</head>
+	<body>
+	<!-- header -->   
+<section class="">
+  <header class="header">
+    <div class="container">
+  <nav class="nav d-flex">
+    <div class="menu-icon"><span class="fas fa-bars"></span></div>
+    <div class="logo animate__animated animate__slow animate__fadeInLeft"><a href="index.html">BaLogun</a></div>
+    <ul class="nav-items">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <label for="btn-1" class="show"> All Categories +</label>
+        <a href="#">All Categories</a>
+        <input type="checkbox" id="btn-1">
+        <ul>
+          <li>
+            <a href="#">Home Decor</a>
+            <ul>
+              <li><a href="#">Armchair</a></li>
+              <li><a href="#">Decor</a></li>
+              <li><a href="#">Lamps</a></li>
+              <li><a href="#">Mirror</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Beauty</a>
+            <ul>
+              <li><a href="#">Human Hairs</a></li>
+              <li><a href="#">Perfumes</a></li>
+              <li><a href="#">Makeups</a></li>
+              <li><a href="#">Hair Products</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Bags</a>
+            <ul>
+              <li><a href="#">Backpacks</a></li>
+              <li><a href="#">Boxes</a></li>
+              <li><a href="#">Clutches</a></li>
+              <li><a href="#">Laptops Bags</a></li>
+              <li><a href="#">School Bags</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Fashion</a>
+            <ul>
+              <li><a href="#">Accessories</a>
+            </li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">T-shirts</a></li>
+            <li><a href="#">Polos</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Electronics</a>
+          <ul>
+            <li><a href="#">Destops</a></li>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Notepads</a></li>
+            <li><a href="#">Phones</a></li>
+            <li><a href="#">Smart tv</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="">
+      <label for="btn-2" class="show">Account +</label>
+      <a href="#"><i class="fa fa-user"></i> Account </a>
+      <input type="checkbox" id="btn-2">
+      <ul>
+        <li><a href="signup.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </li>
+    <li class="wishlist">
+      <a href="#"><i class="fa fa-heart"></i><span class="wish-count">0</span> Wishlist</a>
+      
+    </li>
+    <li>
+      <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+        <span class="wish-count">0</span>
+      </a>
+    </li>
+  </ul>
+  <div class="searchbar">
+    <form action="#">
+      <input type="search" placeholder="search" class="searchinput" required>
+      <button class="searchicon" type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+  <div class="search-icon"><span class="fas fa-search"></span></div>
+  <div class="cancel-icon"><span class="fas fa-times"></span></div>
+</nav>
+</div>
+</header>
+</section>
+<!--/ header -->
+	<!-- cart -->
+	<section class="mt">
+		<div class="container cart">
+			<table>
+				<tr>
+					<th>Product</th>
+					<th>Quantity</th>
+					<th>Subtotal</th>
+				</tr>
+				<tr>
+					<td>
+						<div class="cart-info">
+							<img src="./images/tcat_3_ladies.jpg" alt="" class="img-fluid">
+							<div>
+								<p>Red Sihito Bag</p>
+								<span>Price: $30.00</span>
+								<br />
+								<a href="#" >remove</a>
+							</div>
+						</div>
+					</td>
+					<td>
+						<input type="number" value="1" min="1">
+					</td>
+					<td>$30.00</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="cart-info">
+							<img src="./images/product2.jpg" alt="" class="img-fluid">
+							<div>
+								<p>Red Sihito Bag</p>
+								<span>Price: $70.00</span>
+								<br />
+								<a href="#" >remove</a>
+							</div>
+						</div>
+					</td>
+					<td>
+						<input type="number" value="1" min="1">
+					</td>
+					<td>$30.00</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="cart-info">
+							<img src="./images/product5.jpg" alt="" class="img-fluid">
+							<div>
+								<p>Red Sihito Bag</p>
+								<span>Price: $110</span>
+								<br />
+								<a href="#" >remove</a>
+							</div>
+						</div>
+					</td>
+					<td>
+						<input type="number" value="1" min="1">
+					</td>
+					<td>$110.00</td>
+				</tr>
+				<tr>
+				 <td>
+					<div class="cart-info">
+						<img src="./images/product8.jpg" alt="" class="img-fluid">
+						<div>
+							<p>Red Sihito Bag</p>
+							<span>Price: $70</span>
+							<br />
+							<a href="#" >remove</a>
+						</div>
+					</div>
+				 </td>
+				 <td>
+					<input type="number" value="1" min="1">
+				 </td>
+				 <td>$70.00</td>
+			   </tr>
+				<tr>
+				 <td>
+				   <div class="cart-info">
+					 <img src="./images/product7.jpg" alt="" class="img-fluid">
+					<div>
+						<p>Red Sihito Bag</p>
+						<span>Price: $80.00</span>
+						<br />
+						<a href="#" >remove</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<input type="number" value="1" min="1">
+			</td>
+			<td>$150.00</td>
+		</tr>
+			</table>
+			<div class="total-price">
+				<table>
+					<tr>
+						<td>Subtotal</td>
+						<td>$200.00</td>
+					</tr>
+					<tr>
+						<td>Tax</td>
+						<td>$50.00</td>
+					</tr>
+					<tr>
+						<td>Total</td>
+						<td>$250.00</td>
+					</tr>
+				</table>
+				<a href="#" class="checkout btn">Proceed to Checkout</a>
+			</div>
+		</div>
+    </section>
+   <!-- cart -->
+ 
+  <!-- footer -->
+  <footer class="footer container-fluid">
+	 <div class="row">
+		<div class="col d-flex">
+			<h4>INFORMATION</h4>
+			<a href="">About Us</a>
+			<a href="">Shipping Guid</a>
+			<a href="">Terms and Conditions</a>
+			<a href="">Contact Us</a>
+			<a href="">Sell On Balogun</a>
+		</div>
+		<div class="col d-flex">
+			<h4>USEFUL LINKS</h4>
+			<a href="">Top Brands</a>
+			<a href="">Customer Service</a>
+			<a href="">Promotions</a>
+			<a href="">Online Shopping</a>
+			<a href="">FQA</a>
+		</div>
+		<div class="col d-flex">
+			<span><i class="bx bxl-facebook-square"></i></span>
+			<span><i class="bx bxl-instagram-alt"></i></span>
+			<span><i class="bx bxl-github"></i></span>
+			<span><i class="bx bxl-twitter"></i></span>
+			<span><i class="bx bxl-pinterest"></i></span>
+		</div>
+	 </div>
+	   <div>
+        <p class="copyright"> &copy; 2021 — BaLogun. All Rights Reserved</p>
+  </div>
+  </footer>
+   <div class="scrollTop" onclick="scrollToTop()"></div>
+  <!-- /footer -->
+	<script type="text/javascript" src='assets/js/jquery-3.6.0.js'></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>
