@@ -22,10 +22,105 @@
   </head>
 </body>
 <!-- header -->
-<section class="">
-  <header class="header">
-    <div class="container">
-  <nav class="nav d-flex">
+<!-- <section class=""> -->
+  <!-- <header class="header"> -->
+<!--     <div class="container"> -->
+   <nav class="menu-top">
+    <div class="wrap container">
+        <div class="menu-icon"><span class="fas fa-bars"></span></div>
+      <div class="logo"><a href="">BALOGUN</a></div>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <header>Health and Beauty</header>
+                <ul class="mega-links">
+                  <li><a href="#"><img src="./images/beauty.jpeg" width="50px" height="50px" alt=""></a></li>
+                  <li><a href="#">Drugs and Supplements</a></li>
+                  <li><a href="#">Body and Hair</a></li>
+                  <li><a href="#">Makeup</a></li>
+                  <li><a href="#">View More</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Decor</header>
+                <ul class="mega-links">
+                  <li><a href="#"><img src="./images/deco.jpg.jpeg" width="150" height="150" alt=""></a></li>
+                  <li><a href="#">Office Chairs</a></li>
+                  <li><a href="#">Home Chairs</a></li>
+                  <li><a href="#">Lightenings</a></li>
+                  <li><a href="#">View More</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Fashion</header>
+                <ul class="mega-links">
+                  <li><a href=" #"><img src="./images/profile.png" width=" 50px" height="50px" alt=""></a></li>
+                  <li><a href="#">Bags and Brifecases</a></li>
+                  <li><a href="#">Hats, Caps and Fasinators</a></li>
+                  <li><a href="#">Shoes</a></li>
+                  <li><a href="#">View More</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Electronics</header>
+                <ul class="mega-links">
+                  <li><a href=" #"><img src="./images/portfolio-1.jpg" width=" 50px" height="50px" alt=""></a></li>
+                  <li><a href="#">Laptop and Desktops</a></li>
+                  <li><a href="#">Phones </a></li>
+                  <li><a href="#">Accessories</a></li>
+                  <li><a href="#">View More</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="" class="desktop-item">Markets <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showdrop1" />
+          <label for="showdrop1" class="mobile-item">Markets <span><i class="fas fa-chevron-down"></i></span></label>
+          <ul class="drop-menu1">
+            <li><a href="">Lane</a></li>
+            <li><a href="">Store Details</a></li>
+          </ul>
+        </li>
+        <!-- icons -->
+        <li class="wishlist">
+           <a href="#"><i class="fa fa-heart"></i>
+            <small class="wish-count">0</small> Wishlist</a>
+        </li>
+      <li class="">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+          <small class="wish-count">0</small>
+        </a>
+    </li>
+     <li>
+          <a href="" class="desktop-item"><i class="fa fa-user"></i></span></a>
+          <input type="checkbox" id="showdrop2" />
+          <label for="showdrop2" class="mobile-item"><i class="fa fa-user"></i></label>
+          <ul class="drop-menu2">
+            <li><a href="">Login</a></li>
+            <li><a href="">Register</a></li>
+          </ul>
+        </li>
+      </ul>
+        <div class="searchbar">
+          <form action="#">
+            <input type="search" placeholder="search" class="searchinput" required>
+            <button class="searchicon" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+      </div>
+      <div class="search-icon"><span class="fas fa-search"></span></div>
+      <div class="cancel-icon"><span class="fas fa-times"></span></div>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+ <!--  <nav class="nav d-flex">
     <div class="menu-icon"><span class="fas fa-bars"></span></div>
     <div class="logo animate__animated animate__slow animate__fadeInLeft"><a href="index.html">BaLogun</a></div>
     <ul class="nav-items">
@@ -86,6 +181,14 @@
         </li>
       </ul>
     </li>
+    <li class="wishlist">
+       <a href="#"><i class="fa fa-heart"></i><span class="wish-count">0</span> Wishlist</a>
+     </li>
+    <li>
+      <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+        <span class="wish-count">0</span>
+      </a>
+    </li>
     <li class="">
       <label for="btn-2" class="show">Account +</label>
       <a href="#"><i class="fa fa-user"></i> Account </a>
@@ -94,15 +197,6 @@
         <li><a href="signup.html">Register</a></li>
         <li><a href="login.html">Login</a></li>
       </ul>
-    </li>
-    <li class="wishlist">
-      <a href="#"><i class="fa fa-heart"></i><span class="wish-count">0</span> Wishlist</a>
-      
-    </li>
-    <li>
-      <a href="cart.html"><i class="fa fa-shopping-cart"></i>
-        <span class="wish-count">0</span>
-      </a>
     </li>
   </ul>
   <div class="searchbar">
@@ -113,13 +207,13 @@
   </div>
   <div class="search-icon"><span class="fas fa-search"></span></div>
   <div class="cancel-icon"><span class="fas fa-times"></span></div>
-</nav>
-</div>
+</nav> -->
+<!-- </div>
 </header>
-</section>
+</section> -->
 <!--/ header -->
 <!-- banner -->
-<section class="banner-container container-fluid">
+<section class="banner-container container-fluid mt-1">
   <div class="banner container">
     <div class="glide" id="glideOne">
       <div class="glide__track" data-glide-el="track">
@@ -359,9 +453,8 @@
 </section>
 <!-- /Featured products -->
 <!-- promo -->
-<section class="section my-5">
-  <div class="container-fluid">
-    <div class="promo">
+<section class="section my-5 container-fluid promo-content">
+    <div class="promo container">
       <div class="left">
         <span class="trend">
           Trending Designs
@@ -376,7 +469,6 @@
           <img src="./images/green.png" alt="promo image" class="img-fluid">
       </div>
     </div>
-  </div>
 </section>
 <!-- /promo -->
 <!-- Arrivals -->

@@ -16,7 +16,7 @@ $(this).css("color", "#17a2b8");
 const menu = document.querySelector(".menu-icon span");
 const search =document.querySelector(".search-icon ");
 const cancel = document.querySelector(".cancel-icon");
-const items = document.querySelector(".nav-items");
+const items = document.querySelector(".nav-list");
 const form = document.querySelector("form");
 
 menu.onclick =()=>{
