@@ -623,20 +623,25 @@ nav {
 
 /*/*banner*/
 .banner-container{
-   background: linear-gradient(0.25turn, #E7D6D8, 
-    #C079AA, #C2D64D);
+   /*background: linear-gradient(0.25turn, #E7D6D8, 
+    #C079AA, #C2D64D);*/
 }
 .banner {
-  margin-top: 71px;
+  margin-top: 71px !important;
 }
 
-.banner .banner, .glide__slides {
+
+.glide__slides {
   position: relative;
-  height: calc(100vh - 6rem);
-  margin: 0 4rem;
+  height: calc(60vh - 0rem);/*
+  margin: 0 4rem;*/
   overflow: hidden;
+  object-fit: cover;
 }
 
+.banner-img{
+  max-width: 100%;
+}
 .banner .center {
   display: flex;
   align-items: center;
@@ -1257,7 +1262,7 @@ nav {
 /*footer*/
 .footer-section {
   padding: 4rem 1rem;
-  background: #000;
+  background: #0dcaf0;
   color: #fff;
   line-height: 2rem;
 }
@@ -1281,7 +1286,7 @@ nav {
 }
 
 .footer-center a:hover {
-  color: #0dcaf0;
+  color: #000;
 }
 
 .footer-center div {
@@ -1298,7 +1303,7 @@ nav {
  }
 
 .social-icons a:hover i{
-  color: #0dcaf0;
+  color: #000;
   transition: 0.2s;
   transform: scale(1.1);
 }
